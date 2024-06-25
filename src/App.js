@@ -1,19 +1,25 @@
-// src/App.js
-import React from 'react';
-import BackgroundVideo from './Backgroundvideo';
+import logo from './logo.svg';
 import './App.css';
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-      <BackgroundVideo />
-      <div className="content">
-        <h1>Welcome to My Website</h1>
-        <p>This is an example of a website with a background video.</p>
-      </div>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
-};
+}
 
 export default App;
-
