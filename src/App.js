@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BackgroundVideo />
       <header className="App-header">
-        <h1>Welcome to My React App</h1>
+        <h1>Fuck</h1>
       </header>
     </div>
   );
