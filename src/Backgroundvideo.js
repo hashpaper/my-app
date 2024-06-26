@@ -1,6 +1,5 @@
-// src/BackgroundVideo.js
 import React from 'react';
-import './BackgroundVideo.css';
+import './BackgroundVideo.css'; // We'll add some styling here
 
 const BackgroundVideo = () => {
   return (
@@ -11,6 +10,6 @@ const BackgroundVideo = () => {
       </video>
     </div>
   );
-};
+}
 
 export default BackgroundVideo;
