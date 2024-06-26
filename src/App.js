@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './App.css';
-import BackgroundVideo from './BackgroundVideo';
+import Backgroundvideo from './Backgroundvideo';
 
 function App() {
   return (

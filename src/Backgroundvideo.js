@@ -1,5 +1,5 @@
 import React from 'react';
-import './BackgroundVideo.css'; // We'll add some styling here
+import './Backgroundvideo.css'; // We'll add some styling here
 
 const BackgroundVideo = () => {
   return (
@@ -12,4 +12,4 @@ const BackgroundVideo = () => {
   );
 }
 
-export default BackgroundVideo;
+export default Backgroundvideo;
